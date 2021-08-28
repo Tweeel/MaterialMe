@@ -17,11 +17,15 @@
 package com.example.android.materialme;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.bumptech.glide.Glide;
 
 import java.util.ArrayList;
 
@@ -31,8 +35,8 @@ import java.util.ArrayList;
 class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
 
     // Member variables.
-    private ArrayList<Sport> mSportsData;
-    private Context mContext;
+    private final ArrayList<Sport> mSportsData;
+    private final Context mContext;
 
     /**
      * Constructor that passes in the sports data and the context.
@@ -45,7 +49,6 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
         this.mContext = context;
     }
 
-
     /**
      * Required method for creating the viewholder objects.
      *
@@ -54,9 +57,10 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
      * @param viewType The view type of the new View.
      * @return The newly created ViewHolder.
      */
+    @NonNull
     @Override
     public SportsAdapter.ViewHolder onCreateViewHolder(
-            ViewGroup parent, int viewType) {
+            @NonNull ViewGroup parent, int viewType) {
         return new ViewHolder(LayoutInflater.from(mContext).
                 inflate(R.layout.list_item, parent, false));
     }
@@ -68,8 +72,7 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
      * @param position The adapter position.
      */
     @Override
-    public void onBindViewHolder(SportsAdapter.ViewHolder holder,
-                                 int position) {
+    public void onBindViewHolder(SportsAdapter.ViewHolder holder, int position) {
         // Get current sport.
         Sport currentSport = mSportsData.get(position);
 
@@ -94,8 +97,9 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
     class ViewHolder extends RecyclerView.ViewHolder {
 
         // Member Variables for the TextViews
-        private TextView mTitleText;
-        private TextView mInfoText;
+        private final TextView mTitleText;
+        private final TextView mInfoText;
+        private final ImageView mSportsImage;
 
         /**
          * Constructor for the ViewHolder, used in onCreateViewHolder().
@@ -108,13 +112,14 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             // Initialize the views.
             mTitleText = itemView.findViewById(R.id.title);
             mInfoText = itemView.findViewById(R.id.subTitle);
+            mSportsImage = itemView.findViewById(R.id.sportsImage);
         }
 
         void bindTo(Sport currentSport){
             // Populate the textviews with data.
             mTitleText.setText(currentSport.getTitle());
             mInfoText.setText(currentSport.getInfo());
-
+            Glide.with(mContext).load(currentSport.getImageResource()).into(mSportsImage);
         }
     }
 }
