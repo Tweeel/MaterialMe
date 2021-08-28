@@ -1,97 +1,159 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
+ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\16bc995ef55f8558a1185d6bf49a82d0\transformed\cardview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\6944aa5ca27ccb7282469c9d110299a3\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\houssem\.gradle\caches\transforms-3\8f574181d7aba4dfac81050f3d15ee7d\transformed\constraint-layout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\53a4bcef7da3d59c7dd5294ae472f41d\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\840e776e0321f0fa5d82dfe732d58e86\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\ec510513e22b7f58339b5b62a95ca874\transformed\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\f3d6b5aaaa011536bd96676d291b36a5\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\3ac54b2245d1dd4c0bf5fc1c7b938b98\transformed\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\b39d76ec21899fd3bb5433987dec8d5f\transformed\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\32295d4a2cef3e4ea3a5b88a0edbfe28\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\248af4d6100c284b7dfe014134464399\transformed\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\e00229bf77c0a7c728c70306bd09a3c6\transformed\livedata-core-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\bf28833bb941dea7cf751bc2765008bf\transformed\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\d74a1f16e322b568dbc653513dbece80\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\e9c83c391a1f889ae45e1bc8ed2417b6\transformed\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
-INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\2f76f9dfa53e1011caae6d13dbd54197\transformed\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\1da2f7c873362f231f4a0aa988c0785e\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\d245f889c9b0513a05c6d42a9943e32d\transformed\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5c1921ad202362f414e17f9618a74883\transformed\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\8ca3f51eb33844108b87f91e16400c47\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\fa634967c1b2e78454259b4d768d03dc\transformed\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\197f0ae04ba094576e1832fd26683f59\transformed\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\27a0bd6e7b36ee028ea6f4b5a33cd804\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\3120b607a233a0a781556dae877e37fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\4df8a4fdc6a7a929f12c678b26cdb377\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\e7bbbad3602dcd7f0de64a03623ff82d\transformed\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\7d7bc9effbffd47d76a32f12fd7b2601\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\acba1bd1f13bfe06d154becb3c9d9cab\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\6a36d6b6cb902eae8f53bb1430f89abb\transformed\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5716a440c60b700b0c8f02eef97b4a5e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\dc4821967e2b3ee86c8ab919b0f9dab0\transformed\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\e2721f41f3370abe9dd62d316c4725c8\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\92f1b8d88abebaab6be831498dda8269\transformed\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\788b4ff6f41d42c630f76981bf88c94d\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\d514c3513766502e973807f3436ad84c\transformed\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\5be164842a105fd81593e16c5d4f4132\transformed\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\5068fa875add72d96e629eec49f0285a\transformed\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\6a620737f499b1c59cd7f6e5178d86a8\transformed\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\72004780ad48f228541fd9b4e3c8569e\transformed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\684ab5ea0315a9a9303625b9d0c7628e\transformed\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:4:5-45
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:1-22:12
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:6:5-20:19
+ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\houssem\.gradle\caches\transforms-3\8f574181d7aba4dfac81050f3d15ee7d\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\houssem\.gradle\caches\transforms-3\8f574181d7aba4dfac81050f3d15ee7d\transformed\constraint-layout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\6a36d6b6cb902eae8f53bb1430f89abb\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\6a36d6b6cb902eae8f53bb1430f89abb\transformed\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5716a440c60b700b0c8f02eef97b4a5e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5716a440c60b700b0c8f02eef97b4a5e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\6a36d6b6cb902eae8f53bb1430f89abb\transformed\support-compat-28.0.0\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:9:9-35
 	android:label
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:9:9-41
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:8:9-41
 	android:icon
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:8:9-43
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:7:9-35
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.android.materialme.MainActivity
-ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:12:9-19:20
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:10:9-40
+activity#com.example.android.materialme.DetailActivity
+ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:11:9-13:39
 	android:exported
 		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:13:13-36
 	android:name
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:12:19-77
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:12:13-43
+activity#com.example.android.materialme.MainActivity
+ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:14:9-22:20
+	android:exported
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\16bc995ef55f8558a1185d6bf49a82d0\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\16bc995ef55f8558a1185d6bf49a82d0\transformed\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\6944aa5ca27ccb7282469c9d110299a3\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\6944aa5ca27ccb7282469c9d110299a3\transformed\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\houssem\.gradle\caches\transforms-3\8f574181d7aba4dfac81050f3d15ee7d\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\houssem\.gradle\caches\transforms-3\8f574181d7aba4dfac81050f3d15ee7d\transformed\constraint-layout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\53a4bcef7da3d59c7dd5294ae472f41d\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\53a4bcef7da3d59c7dd5294ae472f41d\transformed\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\840e776e0321f0fa5d82dfe732d58e86\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\840e776e0321f0fa5d82dfe732d58e86\transformed\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\ec510513e22b7f58339b5b62a95ca874\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\ec510513e22b7f58339b5b62a95ca874\transformed\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\f3d6b5aaaa011536bd96676d291b36a5\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\f3d6b5aaaa011536bd96676d291b36a5\transformed\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\3ac54b2245d1dd4c0bf5fc1c7b938b98\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\3ac54b2245d1dd4c0bf5fc1c7b938b98\transformed\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\b39d76ec21899fd3bb5433987dec8d5f\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\b39d76ec21899fd3bb5433987dec8d5f\transformed\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\32295d4a2cef3e4ea3a5b88a0edbfe28\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\32295d4a2cef3e4ea3a5b88a0edbfe28\transformed\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\248af4d6100c284b7dfe014134464399\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\houssem\.gradle\caches\transforms-3\248af4d6100c284b7dfe014134464399\transformed\support-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\e00229bf77c0a7c728c70306bd09a3c6\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\e00229bf77c0a7c728c70306bd09a3c6\transformed\livedata-core-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\bf28833bb941dea7cf751bc2765008bf\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\bf28833bb941dea7cf751bc2765008bf\transformed\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\d74a1f16e322b568dbc653513dbece80\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\d74a1f16e322b568dbc653513dbece80\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\e9c83c391a1f889ae45e1bc8ed2417b6\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\houssem\.gradle\caches\transforms-3\e9c83c391a1f889ae45e1bc8ed2417b6\transformed\runtime-1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\2f76f9dfa53e1011caae6d13dbd54197\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\2f76f9dfa53e1011caae6d13dbd54197\transformed\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\1da2f7c873362f231f4a0aa988c0785e\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\1da2f7c873362f231f4a0aa988c0785e\transformed\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\d245f889c9b0513a05c6d42a9943e32d\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\d245f889c9b0513a05c6d42a9943e32d\transformed\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5c1921ad202362f414e17f9618a74883\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5c1921ad202362f414e17f9618a74883\transformed\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\8ca3f51eb33844108b87f91e16400c47\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\8ca3f51eb33844108b87f91e16400c47\transformed\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\fa634967c1b2e78454259b4d768d03dc\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\fa634967c1b2e78454259b4d768d03dc\transformed\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\197f0ae04ba094576e1832fd26683f59\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\197f0ae04ba094576e1832fd26683f59\transformed\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\27a0bd6e7b36ee028ea6f4b5a33cd804\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\27a0bd6e7b36ee028ea6f4b5a33cd804\transformed\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\3120b607a233a0a781556dae877e37fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\3120b607a233a0a781556dae877e37fb\transformed\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\4df8a4fdc6a7a929f12c678b26cdb377\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\4df8a4fdc6a7a929f12c678b26cdb377\transformed\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\e7bbbad3602dcd7f0de64a03623ff82d\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\e7bbbad3602dcd7f0de64a03623ff82d\transformed\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\7d7bc9effbffd47d76a32f12fd7b2601\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\7d7bc9effbffd47d76a32f12fd7b2601\transformed\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\acba1bd1f13bfe06d154becb3c9d9cab\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\acba1bd1f13bfe06d154becb3c9d9cab\transformed\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\6a36d6b6cb902eae8f53bb1430f89abb\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\6a36d6b6cb902eae8f53bb1430f89abb\transformed\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5716a440c60b700b0c8f02eef97b4a5e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\5716a440c60b700b0c8f02eef97b4a5e\transformed\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\dc4821967e2b3ee86c8ab919b0f9dab0\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\dc4821967e2b3ee86c8ab919b0f9dab0\transformed\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\e2721f41f3370abe9dd62d316c4725c8\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\e2721f41f3370abe9dd62d316c4725c8\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\92f1b8d88abebaab6be831498dda8269\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\92f1b8d88abebaab6be831498dda8269\transformed\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\788b4ff6f41d42c630f76981bf88c94d\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\788b4ff6f41d42c630f76981bf88c94d\transformed\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\d514c3513766502e973807f3436ad84c\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\d514c3513766502e973807f3436ad84c\transformed\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\5be164842a105fd81593e16c5d4f4132\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\5be164842a105fd81593e16c5d4f4132\transformed\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\5068fa875add72d96e629eec49f0285a\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\5068fa875add72d96e629eec49f0285a\transformed\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\6a620737f499b1c59cd7f6e5178d86a8\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\6a620737f499b1c59cd7f6e5178d86a8\transformed\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\72004780ad48f228541fd9b4e3c8569e\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\houssem\.gradle\caches\transforms-3\72004780ad48f228541fd9b4e3c8569e\transformed\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\684ab5ea0315a9a9303625b9d0c7628e\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\houssem\.gradle\caches\transforms-3\684ab5ea0315a9a9303625b9d0c7628e\transformed\interpolator-28.0.0\AndroidManifest.xml:20:5-44
 INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\houssem\AndroidStudioProjects\MaterialMe\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion

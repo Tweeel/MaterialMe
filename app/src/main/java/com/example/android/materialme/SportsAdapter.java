@@ -1,22 +1,7 @@
-/*
- * Copyright (C) 2018 Google Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
 package com.example.android.materialme;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -94,12 +79,13 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
     /**
      * ViewHolder class that represents each row of data in the RecyclerView.
      */
-    class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
 
         // Member Variables for the TextViews
         private final TextView mTitleText;
         private final TextView mInfoText;
         private final ImageView mSportsImage;
+
 
         /**
          * Constructor for the ViewHolder, used in onCreateViewHolder().
@@ -110,9 +96,12 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             super(itemView);
 
             // Initialize the views.
-            mTitleText = itemView.findViewById(R.id.title);
-            mInfoText = itemView.findViewById(R.id.subTitle);
-            mSportsImage = itemView.findViewById(R.id.sportsImage);
+            mTitleText = itemView.findViewById(R.id.titleDetail);
+            mInfoText = itemView.findViewById(R.id.subTitleDetail);
+            mSportsImage = itemView.findViewById(R.id.sportsImageDetail);
+
+            // Set the OnClickListener to the entire view.
+            itemView.setOnClickListener(this);
         }
 
         void bindTo(Sport currentSport){
@@ -120,6 +109,16 @@ class SportsAdapter extends RecyclerView.Adapter<SportsAdapter.ViewHolder>  {
             mTitleText.setText(currentSport.getTitle());
             mInfoText.setText(currentSport.getInfo());
             Glide.with(mContext).load(currentSport.getImageResource()).into(mSportsImage);
+        }
+
+        @Override
+        public void onClick(View view) {
+            Sport currentSport = mSportsData.get(getAdapterPosition());
+            Intent detailIntent = new Intent(mContext, DetailActivity.class);
+            detailIntent.putExtra("title", currentSport.getTitle());
+            detailIntent.putExtra("image_resource", currentSport.getImageResource());
+            mContext.startActivity(detailIntent);
+
         }
     }
 }

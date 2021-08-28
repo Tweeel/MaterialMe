@@ -4,12 +4,12 @@
         "source": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\src\\main\\res\\drawable\\img_baseball.jpg"
     },
     {
-        "merged": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_soccer.jpg.flat",
         "source": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\src\\main\\res\\drawable\\img_soccer.jpg"
+    },
+    {
+        "merged": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_tabletennis.jpg.flat",
@@ -26,6 +26,10 @@
     {
         "merged": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\merged_res\\debug\\drawable_img_golf.jpg.flat",
         "source": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\src\\main\\res\\drawable\\img_golf.jpg"
+    },
+    {
+        "merged": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\src\\main\\res\\layout\\activity_detail.xml"
     },
     {
         "merged": "C:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
