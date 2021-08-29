@@ -1,4 +1,4 @@
-#Sat Aug 28 22:16:34 WAT 2021
+#Sun Aug 29 23:00:54 WAT 2021
 base.0=C\:\\Users\\houssem\\AndroidStudioProjects\\MaterialMe\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -19,7 +19,8 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.android.materialme.DetailActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName="com.example.android.materialme.MainActivity" />
         <activity
             android:name="com.example.android.materialme.MainActivity"
             android:exported="true" >
